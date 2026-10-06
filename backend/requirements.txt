@@ -1,0 +1,10 @@
+Django==6.1.1
+djangorestframework==3.18.1
+django-cors-headers==4.9.0
+ultralytics==8.4.173
+opencv-python==5.0.0.93
+imageio-ffmpeg==0.6.0
+numpy==2.5.3
+Pillow==12.3.0
+PyYAML==6.0.3
+requests==2.34.2
