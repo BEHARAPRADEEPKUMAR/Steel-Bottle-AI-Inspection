@@ -8,3 +8,4 @@ numpy==2.5.3
 Pillow==12.3.0
 PyYAML==6.0.3
 requests==2.34.2
+gunicorn==26.2.0
