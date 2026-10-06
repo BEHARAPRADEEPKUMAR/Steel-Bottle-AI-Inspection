@@ -134,19 +134,18 @@ MAILERS = {
 }
 
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-    "http://127.0.0.1:5173",
-]
+ALLOWED_HOSTS = ["*"]
 # ============================================================
 # MEDIA FILES
 # ============================================================
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+STATIC_URL = "/static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "media"
 
-# Predefined demo videos
 DEMO_VIDEO_URL = "/demo-videos/"
 DEMO_VIDEO_ROOT = BASE_DIR / "demo_videos"
